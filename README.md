@@ -1,3 +1,9 @@
+# KNOWN ERRORS For Windows Users
+
+A few windows participants have struggled with a `throw Missing contract address for ${contractRef}. Perhaps it wasn't deployed?` error upon running yarn start. Thanks to KR, a participant in the bootcamp, we have discovered the issue is with the /packages/dapplib/src/rythm.js file. If you make the following changes to that file, it should work...
+
+![image](https://user-images.githubusercontent.com/15198786/128912975-cca3498a-054b-4b2b-a39d-018c6da3d5ec.png)
+
 # My Dapp
 
 This project is for the blockchain application My Dapp. It contains code for the Smart Contract, web-based dapp and NodeJS server. 
@@ -41,7 +47,3 @@ Here are the locations of some important files:
 To view your dapp, open your browser to http://localhost:5000 for the DappStarter Workspace.
 
 We ♥️ developers and want you to have an awesome experience. You should be experiencing Dappiness at this point. If not, let us know and we will help. Join our [Discord](https://discord.gg/XdtJfu8W) or hit us up on Twitter [@Decentology](https://twitter.com/decentology).
-
-
-# fast-floward-registry-demo
-# ff-empty-registry-demo
